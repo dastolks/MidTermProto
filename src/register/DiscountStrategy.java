@@ -10,7 +10,8 @@ package register;
  * @author aschindler1
  */
 public interface DiscountStrategy {
-
+    //getting the discount, but note that while it will return a double,
+    //the double is relative to the calculation needed in it.
     double getDiscount();
 
     void setDiscount(double discount);
